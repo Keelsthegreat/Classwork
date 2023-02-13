@@ -1,0 +1,36 @@
+.comicContainer{
+    /*border: solid;
+    color: black;*/
+    height: 72vh;   
+}
+
+.rowOne, .rowTwo{
+    /*border:solid;
+    navy;*/
+    height: 45%;
+    margin: 12px;
+    display: flex;
+    text-align: center;
+}
+
+.block{
+    /*border: solid;
+    color: gray;*/
+    width: 33%;
+}
+
+.pic{
+    border: solid;
+    color: purple;
+    width: 100%;
+    height: 70%;
+}
+
+.punchLine{
+    border: solid;
+    color: rebeccapurple;
+    height: 30%;
+    text-align: center;
+    
+}
+body {background-color: plum;}
