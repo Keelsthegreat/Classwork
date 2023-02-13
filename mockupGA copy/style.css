@@ -1,0 +1,84 @@
+a {
+    text-decoration: none !important;
+    color: gray;
+}
+
+.list {
+    display: flex;
+    margin:0;
+    float: right;
+    list-style: none;
+    cursor: pointer;
+    gap: 12px;
+
+}
+
+.list2 {
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+    list-style: none;
+    gap: 12px;
+}
+
+.imgSrc{
+    width: 135px;
+    height:auto;
+}
+
+.navShop {
+    color: rgb(168, 16, 16);
+}
+
+
+.topNavDiv {
+    position: fixed;
+    top: 0;
+    z-index: 500!important;
+    background-color: #f0f0f0;
+    width: 100%;
+    box-shadow: 0 0.2rem 1.5rem 0 rgb(0 0 0 / 30%);
+
+    
+}
+
+.mainNavDiv {
+    padding-bottom: 30px;
+    position: fixed;
+    background-color: #f0f0f0;
+    width: 100%;
+    box-shadow: 0 0.2rem 1.5rem 0 rgb(0 0 0 / 30%);
+    top: 12px;
+    justify-content: center;
+    
+}
+.photo1 {
+    background-image: url("https://www.redcross.org/content/dam/redcross/homepage-assets/fdr-banners/2023/disasters/ca-storms-and-flooding/CA-Flood-Banner.jpg.transform/1288/q70/feature/image.jpeg");
+    background-repeat: no-repeat;
+    width: auto;
+    height: 50vh;
+    background-size: cover;
+    justify-content: center;
+    
+}   
+
+.photob 
+     {
+        color: #fff;
+        background-color: #E11B22;
+    }
+    
+    .redcross-button a.button, .redcross-button button {
+        cursor: pointer;
+        font-family: Roboto;
+        font-weight: 700;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+       
+        border-style: none;
+        border-radius: 0.3rem;
+        box-shadow: 0 0.2rem 0.4rem 0 rgb(0 0 0 / 15%);
+        padding: 25px;
+        line-height: 1.4;
+      
+}

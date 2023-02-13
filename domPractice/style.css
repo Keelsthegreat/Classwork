@@ -1,0 +1,25 @@
+.screen{
+border: solid black;
+height: 42vh;
+}
+
+.btnContainer{
+    /* border: solid navy; */
+    margin: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn {
+    margin:  15px;
+    border: solid black;
+    width: 35%;
+    text-align: center;
+    border-radius: 22px;
+    background-color: black;
+    color: white;
+}
+
+.main-title {
+    color: black;
+}
