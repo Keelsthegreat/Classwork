@@ -1,0 +1,88 @@
+@media (max-width: 1880px) {
+    body {
+      background-image: url('https://cdn.discordapp.com/attachments/692019678482006016/1067102495664504953/IMG_3827.jpg');
+      color:pink;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .cone{
+    border:solid pink;
+        width:190px;
+        height:190px;
+        background-image: url('https://cdn.discordapp.com/attachments/692019678482006016/1067120242058350763/IMG_3828.JPG');
+        background-size:cover;
+        display: flex;
+        justify-content: left;
+      }
+  }
+  /* ---------------------------------------------------------------- */
+
+  /* Ipad -MidScreen */
+  @media (max-width: 1280px) {
+    body 
+      {
+          background-image:url('https://cdn.discordapp.com/attachments/692019678482006016/1067102496293666909/IMG_3825.jpg');
+          color:burlywood;
+          background-repeat: no-repeat;
+          background-size: cover;
+
+      }
+    
+  
+
+    .cone{
+        display: flex;
+        justify-content: center;
+      border:solid white;
+        width:190px;
+        height:190px;
+        background-image: url('https://cdn.discordapp.com/attachments/692019678482006016/1067120242632958042/IMG_3830.jpg');
+        background-size:cover;
+      }
+    }
+  /* ---------------------------------------------------------------- */
+
+  /* Mobile View */
+  @media (max-width: 680px) {
+    body {
+        background-image:url(https://cdn.discordapp.com/attachments/692019678482006016/1067102495920365659/IMG_3826.jpg);
+        color: #2C1B09;
+        background-repeat: no-repeat;
+    } 
+  
+
+.cone 
+{
+      border:solid chocolate;
+        width:190px;
+        height:190px;
+        background-image: url('https://cdn.discordapp.com/attachments/692019678482006016/1067120242351952014/IMG_3829.jpg');
+        background-size:cover; 
+        display: flex;
+        justify-content: left;
+  }
+}
+
+.shop {
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px;
+    background-color: #EADBC2;
+    color: black;
+   width: 100px;
+   line-height: 25px;
+   
+
+}
+
+  /* ---------------------------------------------------------------- */
+  
+  .shop2 {
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px;
+    background-color: #EADBC2;
+    color: black;
+    line-height: 25px;
+    width: 100px;
+    
+    
+  }

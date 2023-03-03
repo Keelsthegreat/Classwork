@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class='gameboy'>
+            <div class='comm-port'>&#9650; comm.</div>
+            <button class='power-button'></button>
+            <div class='screen-panel'>
+              <span class='power-led'><span id='led'>&bull;</span>power</span>
+              <canvas id='screen'></canvas>
+              <h2>Game Boy 
+                  <span class='COLOR'>
+                    <span class='c'>C</span><span class='o'>o</span><span class='l'>l</span><span class='O2'>o</span><span class='r'>r</span>
+                  </span>
+              </h2>
+            </div>
+            <!--/.screen-panel-->
+             <div class='raised-edge'></div>
+            <h3>Nintendo <span>&copy;</span></h3>
+            <div class='control-panel'>
+              <div class='d-pad'>
+                <button id='up'>&#9650;</button>
+                <button id='right'>&#9658;</button>
+                <button id='center'></button>
+                <button id='down'>&#9660;</button>
+                <button id='left'>&#9668;</button>
+              </div>
+              <!--/.d-pad-->
+              <div class='action-buttons'>
+                <button id='b'>B</button>
+                <button id='a'>A</button>
+              </div>
+              <!--/.action-buttons-->
+              <div class='system-buttons'>
+                <div class='button-grp'>
+                   <button id='select'></button>
+                    <label for='select'>select</label>
+                </div>  
+                <div class='button-grp'>
+                  <button id='start'></button>
+                    <label for='start'>start</label>
+                </div>
+              </div>
+            </div><!--/.control-panel-->
+            <div class='volume-panel'></div>
+          </div>
+          <video id='boot' src='https://cdn.davecampion.com/22516/boot.webm'></video>
+          <video id="pokemon" autobuffer  src='https://cdn.davecampion.com/22516/pokemon.webm'></video>
+        
+        <script src="app.js" async defer></script>
+    </body>
+</html>

@@ -1,0 +1,161 @@
+
+
+@keyframes jump {
+    0% { transform: translateY(-50%, -50%) scale(1.25, 0.75); }
+    50% { transform: translate(-50%, -150%) scale(1, 1); }
+    55% { transform: translate(-50%, -150%) rotate(15deg); }
+    60% { transform: translate(-50%, -150%) rotate(-15deg); }
+    65% { transform: translate(-50%, -150%) rotate(15deg); }
+    70% { transform: translate(-50%, -150%) rotate(-15deg); }
+    100% { transform: translate(-50%, -50%) scale(1.25, 0.75); }
+}
+
+
+
+
+    @keyframes pulse {
+        0% {
+            transform: scale(0.95);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+        }
+    
+        70% {
+            transform: scale(1);
+            box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+        }
+    
+        100% {
+            transform: scale(0.95);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        }
+    }
+
+    @keyframes flash {
+        0%, 50%, 100% {
+           opacity: 1;
+        }
+        25%, 75% {
+           opacity: 0;
+        }
+     }
+
+     @keyframes zoom-in-zoom-out {
+        0% {
+          transform: scale(1, 1);
+        }
+        50% {
+          transform: scale(1.5, 1.5);
+        }
+        100% {
+          transform: scale(1, 1);
+        }
+      }
+
+.container {
+    margin-left: 50px;
+    gap: 20px;
+    display: block;
+}
+
+.ball {
+    
+    height: 150px;
+    width: 150px;
+    border-radius: 150%;
+  
+    
+  
+    /* to create an animation */
+    
+    
+    
+}
+
+.ball2 {
+    
+    height: 150px;
+    width: 150px;
+    border-radius: 150%;
+   
+  
+    
+    /* to create an animation */
+    
+}
+
+.ball3 {
+    
+    height: 150px;
+    width: 150px;
+    border-radius: 150%;
+  
+    /* to create an animation */
+    
+    
+}
+
+.ball4 {
+    
+    height: 150px;
+    width: 150px;
+    border-radius: 150%;
+  
+    /* to create an animation */
+    
+    
+}
+
+.jump2 {
+    animation: jump 2s ease-in 1;
+    border: solid red;
+}
+
+.pulse2 {
+    animation: pulse 2s ease-in 2;
+    border: solid palevioletred;
+}
+
+.flash2 {
+    animation: flash 3s ease-in 5;
+    border: solid orange;
+}
+.zoomIn2 {
+    animation: zoom-in-zoom-out 1s ease;
+    border: solid magenta;
+}
+/* .falling{
+    animation:  falling 10s ease-in infinite;
+} */
+
+.btn{
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}
+

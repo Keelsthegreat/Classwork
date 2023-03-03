@@ -1,0 +1,128 @@
+body{
+    height:400vh;
+}
+
+.navContainer{
+    border:solid black;
+    height:40px;
+    display:flex;
+    justify-content: space-between;
+}
+.left{
+    width:30%
+}
+.right{
+    width:30%;
+    display:flex;
+    justify-content: space-evenly;
+    padding-top:6px;
+}
+.logoOne,.logoTwo{
+    height:100%;
+    margin-left:12px;
+}
+.navTab:hover{
+    color:slategray;
+}
+.menuContainer{
+    /* border:solid red; */
+    height:60px;
+    display:flex;
+}
+
+.sec1{
+    width:13%;
+}
+.sec2{
+    width:33%;
+    display:flex;
+    justify-content: space-around;
+    padding-top:18px;
+}
+.sec3{
+    width:33%;
+    margin-left:10%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.nike{
+    height:50%;
+    margin-top:16px;
+}
+.iconContainer{
+    /* border:solid blue; */
+    width:30%;
+    display:flex;
+    justify-content: space-evenly;
+}
+.search{
+    height:20px;
+    width:100%;
+    margin-top:18px;
+    border-radius:22px;
+    text-align:center;
+}
+
+.iconz{
+    height:30%;
+    margin-top:20px;
+}
+.adScroll{
+    border:solid black;
+    text-align:center;
+    background-color:slategray;
+}
+
+.picSplitContainer{
+    display:flex;
+    height:62vh;
+    margin:1em;
+}
+.lPic,.rPic{
+    width:50%;
+    
+}
+.midAdContainer{
+    border:solid black;
+    text-align:center;
+    background-image:url('');
+    color:white;
+    height:73vh;
+    /* display:flex; */
+}
+.big{
+    font-size:40px;
+    
+}
+
+.grey11{
+width:30%;
+margin-left:35%;
+font-size:18px;
+
+}
+.clicker{
+    font-size:23px;
+    border:solid black;
+    border-radius:22px;
+    margin:15px;
+    background-color: black;
+    color:white;
+    
+}
+.clicker:hover{
+    font-size:23px;
+    border:solid black;
+    border-radius:22px;
+    margin:15px;
+    background-color: black;
+    color:green;
+}
+.wallpaper{
+    position:relative;  
+    z-index: -1;
+    width:100%;
+    height:100%;
+    opacity:.5;
+}
